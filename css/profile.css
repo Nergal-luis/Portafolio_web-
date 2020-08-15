@@ -175,24 +175,24 @@ flex-direction: row;
 }
 @media only screen and (max-width:767px){
   .contenedor{
-    width: 510px;
-    height: 1700px;
+    width: auto;
+    height: auto;
   }
   .minihead{
-    width: 510px;
+    width: auto;
     height: 62px;
   }
   .logo{
-    width: 200px;
+    width: auto;
     height: 62px;
   }
   .menu{
-    width: 510px;
+    width: auto;
     height: 70px;
 
   }
   .botones{ /*se llama y da valores a los divs**/
-    width: 495px;
+    width: auto;
     height: 80%;
     display: flex;
     flex-direction: row;
@@ -203,7 +203,7 @@ flex-direction: row;
      font-size: 18px;
   }
   .cuadro1{
-    width: 510px;
+    width: auto;
     height: 435px;
     background-position: left;
   }
@@ -219,13 +219,19 @@ flex-direction: row;
     color: #21C107;
   }
   #descripcion{
+    width: auto;
     font-size: 18px;
+
+  }
+  .log{
+    display: none;
   }
   .cuadro2{
   width: 510px;
   height: 1700px;
 
   }
+
   #noti{
     text-align: center;
     margin-top: 5px;
@@ -233,19 +239,19 @@ flex-direction: row;
     color: #4FD639  ;
   }
   .fila1{
-    width: 510px;
+    width: auto;
     height: 1000px;
     display:flex;
     flex-direction: column;
   }
   .c1, .c2, .c3, .c4, .c5{
-    width: 400px;
+    width: auto;
     height: 300px;
     display: flex;
     flex-direction: column;
   }
   .pr1, .pr2, .pr3, .pr4, .pr5{
-    width: 400px;
+    width: auto;
     height: 135px;
   }
   .titulov{
@@ -262,13 +268,13 @@ flex-direction: row;
 
   }
   .food{
-  width: 100%;
+  width: auto;
   height: 125px;
   background: black;
   flex-direction: row;
   }
   .mini{
-    width: 100%;
+    width: auto;
     height: 40px;
     margin-top: 5px;
   }
